@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+@import './typography.css';
+
+@theme {
+  --font-family-display: 'Inter', 'serif';
+  --font-family: 'JetBrains Mono', 'sans-serif';
+  --color-primary: #ffc700;
+}
+
+.contact {
+  font-size: 1em
+}
+
+.outgoing-links {
+  font-size: 1em;
+  text-align: left;
+  justify-content: bottom;
+  padding: 0.5em;
+  &:hover {
+    background-color: var(--color-primary);
+    color: #323232;
+  }
+}
+
+.menu {
+  font-size: 0.9em;
+  color: var(--color-text);
+  text-align: left;
+  justify-content: bottom;
+  padding: 0.5em;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+button {
+  border-width: 3px;
+  padding: 0.5em 1.4em;
+  &:hover {
+    text-decoration: underline;
+  }
+}
