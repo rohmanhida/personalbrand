@@ -59,6 +59,12 @@
         <a
           class="wrap-break-word menu"
           href="#"
+          @click.prevent="scrollToSection('portfolio')"
+          >Portfolio</a
+        >
+        <a
+          class="wrap-break-word menu"
+          href="#"
           @click.prevent="scrollToSection('research')"
           >Research</a
         >
